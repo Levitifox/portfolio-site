@@ -96,13 +96,5 @@ document.addEventListener("DOMContentLoaded", function () {
         heroLogo.addEventListener("mouseleave", () => outline.classList.remove("hero-hover"));
     }
 
-    lottie.loadAnimation({
-        container: document.getElementById("levitifox-animation"),
-        renderer: "svg",
-        loop: true,
-        autoplay: true,
-        path: "{{root}}images/levitifox.json",
-    });
-
     updateThumb();
 });
