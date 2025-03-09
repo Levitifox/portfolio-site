@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{{root}}style.css" />
+        <script src="{{root}}script.js" defer></script>
+        <link rel="icon" href="{{root}}images/icon.svg" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+
+        <header>
+            <nav>
+                <a href="{{root}}index.html">Home</a>
+                <a href="{{root}}authors.html">Skills</a>
+                <a href="{{root}}index.html#catalog">Portfolio</a>
+            </nav>
+            <div class="right-section">
+                <a href="{{root}}contact.html">Contact</a>
+            </div>
+        </header>
+        {{content}}
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h2>Information</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Legal Notice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2>Customers</h2>
+                    <ul>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shopping Guide</a></li>
+                        <li><a href="#">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="{{root}}images/x.svg" alt="X" /></a>
+                            <a href="#"><img src="{{root}}images/instagram.svg" alt="Instagram" /></a>
+                            <a href="#"><img src="{{root}}images/facebook.svg" alt="Facebook" /></a>
+                            <a href="#"><img src="{{root}}images/youtube.svg" alt="YouTube" /></a>
+                            <a href="#"><img src="{{root}}images/tiktok.svg" alt="TikTok" /></a>
+                        </li>
+                        <li>Email: <a href="#">contact@yourwebsite.com</a></li>
+                        <li>Phone: <a href="#">+33 1 23 45 67 89</a></li>
+                        <li>Address: <a href="#">123 Helmet Street, 75001 Paris, France</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
